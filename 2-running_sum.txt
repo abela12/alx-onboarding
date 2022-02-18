@@ -1,0 +1,8 @@
+set sum to 0;
+
+Write "Please enter a number (negative number to exit)"
+While(number>=0)
+Read number
+Set sum to sum+number
+end While
+write sum
